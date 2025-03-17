@@ -214,28 +214,28 @@ void resetLevelThree(){
 	hero.hp = 1000; hero.modelState = STAND_B; hero.modelIndex = 0; hero.moveX = 100; hero.moveY = 0; hero.modelCount = 0; hero.alive = true;
 
 	//medusa
-	medusa.hp = 1000; medusa.modelState = STAND_B; medusa.modelIndex = 0; medusa.moveX = 2000; medusa.moveY = 0; medusa.modelCount = 0; medusa.alive = true; medusa.isFollow = false;
+	medusa.hp = 2000; medusa.modelState = STAND_B; medusa.modelIndex = 0; medusa.moveX = 4000; medusa.moveY = 0; medusa.modelCount = 0; medusa.alive = true; medusa.isFollow = false;
 	morphFlag = 1;
 	openingFlag = 1;
 	mobOutFlag = 1;
 
 	//arakune
-	arak.hp = 1000; arak.modelState = STAND_B; arak.modelIndex = 0; arak.moveX = 2000; arak.moveY = 0; arak.modelCount = 0; arak.alive = true; arak.isFollow = false;
+	arak.hp = 2000; arak.modelState = STAND_B; arak.modelIndex = 0; arak.moveX = 4000; arak.moveY = 0; arak.modelCount = 0; arak.alive = true; arak.isFollow = false;
 
 	//mobs
 	level3MobCount = 4;
 	mob_dead = false;
 	mob1_dead = false;
 
-	mob.hp = 1000; mob.modelState = STAND_B; mob.modelIndex = 0; mob.moveX = 2000; mob.moveY = 0; mob.modelCount = 0; mob.alive = true; mob.isFollow = false;
-	mob1.hp = 1000; mob1.modelState = STAND_B; mob1.modelIndex = 0; mob1.moveX = 1800; mob1.moveY = 0; mob1.modelCount = 0; mob1.alive = true; mob1.isFollow = false;
+	mob.hp = 1000; mob.modelState = STAND_B; mob.modelIndex = 0; mob.moveX = 3500; mob.moveY = 0; mob.modelCount = 0; mob.alive = true; mob.isFollow = false;
+	mob1.hp = 1000; mob1.modelState = STAND_B; mob1.modelIndex = 0; mob1.moveX = 4500; mob1.moveY = 0; mob1.modelCount = 0; mob1.alive = true; mob1.isFollow = false;
 
 	tagerDead = false;
 	tager4Dead = false;
 
 
-	tager.hp = 1000; tager.modelState = STAND_B; tager.modelIndex = 0; tager.moveX = 1200; tager.moveY = 0; tager.modelCount = 0; tager.alive = true; tager.isFollow = false;
-	tager4.hp = 1000; tager4.modelState = STAND_B; tager4.modelIndex = 0; tager4.moveX = 1500; tager4.moveY = 0; tager4.modelCount = 0; tager4.alive = true; tager4.isFollow = false;
+	tager.hp = 1000; tager.modelState = STAND_B; tager.modelIndex = 0; tager.moveX = 1000; tager.moveY = 0; tager.modelCount = 0; tager.alive = true; tager.isFollow = false;
+	tager4.hp = 1000; tager4.modelState = STAND_B; tager4.modelIndex = 0; tager4.moveX = 2500; tager4.moveY = 0; tager4.modelCount = 0; tager4.alive = true; tager4.isFollow = false;
 	
 	//ui
 
@@ -274,11 +274,11 @@ void resetLevelOne(){
 	mob3_dead = false;
 	mob4_dead = false;
 
-	mob2.hp = 1000; mob2.modelState = STAND_B; mob2.modelIndex = 0; mob2.moveX = 2000; mob2.moveY = 0; mob2.modelCount = 0; mob2.alive = true; mob2.isFollow = false;
+	mob2.hp = 1000; mob2.modelState = STAND_B; mob2.modelIndex = 0; mob2.moveX = 3000; mob2.moveY = 0; mob2.modelCount = 0; mob2.alive = true; mob2.isFollow = false;
 
-	mob3.hp = 1000; mob3.modelState = STAND_B; mob3.modelIndex = 0; mob3.moveX = 1800; mob3.moveY = 0; mob3.modelCount = 0; mob3.alive = true; mob3.isFollow = false;
+	mob3.hp = 1000; mob3.modelState = STAND_B; mob3.modelIndex = 0; mob3.moveX = 4000; mob3.moveY = 0; mob3.modelCount = 0; mob3.alive = true; mob3.isFollow = false;
 
-	mob4.hp = 1000; mob4.modelState = STAND_B; mob4.modelIndex = 0; mob4.moveX = 1200; mob4.moveY = 0; mob4.modelCount = 0; mob4.alive = true; mob4.isFollow = false;
+	mob4.hp = 1000; mob4.modelState = STAND_B; mob4.modelIndex = 0; mob4.moveX = 1000; mob4.moveY = 0; mob4.modelCount = 0; mob4.alive = true; mob4.isFollow = false;
 
 	//ui
 	levelPic = 0; 
@@ -324,9 +324,9 @@ void resetLevelTwo(){
 	tager2Dead = false;
 	tager3Dead = false;
 
-	tager1.hp = 1000; tager1.modelState = STAND_B; tager1.modelIndex = 0; tager1.moveX = 2000; tager1.moveY = 0; tager1.modelCount = 0; tager1.alive = true; tager1.isFollow = false;
-	tager2.hp = 1000; tager2.modelState = STAND_B; tager2.modelIndex = 0; tager2.moveX = 1200; tager2.moveY = 0; tager2.modelCount = 0; tager2.alive = true; tager2.isFollow = false;
-	tager3.hp = 1000; tager3.modelState = STAND_B; tager3.modelIndex = 0; tager3.moveX = 1800; tager3.moveY = 0; tager3.modelCount = 0; tager3.alive = true; tager3.isFollow = false;
+	tager1.hp = 1000; tager1.modelState = STAND_B; tager1.modelIndex = 0; tager1.moveX = 4000; tager1.moveY = 0; tager1.modelCount = 0; tager1.alive = true; tager1.isFollow = false;
+	tager2.hp = 1000; tager2.modelState = STAND_B; tager2.modelIndex = 0; tager2.moveX = 1000; tager2.moveY = 0; tager2.modelCount = 0; tager2.alive = true; tager2.isFollow = false;
+	tager3.hp = 1000; tager3.modelState = STAND_B; tager3.modelIndex = 0; tager3.moveX = 3000; tager3.moveY = 0; tager3.modelCount = 0; tager3.alive = true; tager3.isFollow = false;
 
 
 	//ui
@@ -411,8 +411,8 @@ void showLevelThree_1(){
 		tag4Y = 0;
 	}
 
-	iShowImage(tager.moveX, 310-tagY, 300, 300 - mob_adjust, tager.model[tager.modelIndex]);
-	iShowImage(tager4.moveX, 310-tag4Y, 300, 300 - mob_adjust, tager4.model[tager4.modelIndex]);
+	iShowImage(tager.moveX, 310-tagY, 300, 300 - 0, tager.model[tager.modelIndex]);
+	iShowImage(tager4.moveX, 310-tag4Y, 300, 300 - 0, tager4.model[tager4.modelIndex]);
 
 
 	//iShowImage(1480, 880, 400, 100, tager3.model[110]);
@@ -1002,6 +1002,12 @@ int bmaxHp = boss.hp;
 
 void iDraw() {
 	iClear();
+
+
+	if (arak.hp==0)
+	{
+		medusa.moveX = arak.moveX;
+	}
 
 	
 
@@ -1767,7 +1773,16 @@ void iSpecialKeyboard(unsigned char key)
 			if (hero.moveX >= 800 && bgx > -1400 && hero.modelState == WALK_B)
 			{
 				bgx -= 5;
-				/*
+
+
+				if (mob.hp == 0)
+				{
+					mob.moveX -= 5;
+				}
+				if (mob1.hp == 0)
+				{
+					mob1.moveX -= 5;
+				}
 				
 				if (mob2.hp == 0)
 				{
@@ -1781,26 +1796,114 @@ void iSpecialKeyboard(unsigned char key)
 				{
 					mob4.moveX -= 5;
 				}
-				*/
+
+				if (tager.hp == 0)
+				{
+					tager.moveX -= 5;
+				}
+				if (tager1.hp == 0)
+				{
+					tager1.moveX -= 5;
+				}
+				if (tager2.hp == 0)
+				{
+					tager2.moveX -= 5;
+				}
+				if (tager3.hp == 0)
+				{
+					tager3.moveX -= 5;
+				}
+				if (tager4.hp == 0)
+				{
+					tager4.moveX -= 5;
+				}
+
+//============================================================== boss adjust ==============================================//
+				if (boss.hp == 0)
+				{
+					boss.moveX -= 5;
+				}
+				if (medusa.hp==0)
+				{
+					medusa.moveX -= 5;
+				}
+				if (arak.hp==0)
+				{
+					arak.moveX -= 5;
+				}
+
+				if (ragna.hp==0)
+				{
+					ragna.moveX -= 5;
+				}
+
 			}
 			else if (hero.moveX < 800 && bgx < 0 && hero.modelState == WALK)
 			{
 				bgx += 5;
-				/*
-					if (mob2.hp == 0)
-					{
-						mob2.moveX += 5;
-					}
-					if (mob3.hp == 0)
-					{
-						mob3.moveX += 5;
-					}
-					if (mob4.hp == 0)
-					{
-						mob4.moveX += 5;
-					}
-				
-				*/
+				if (mob.hp == 0)
+				{
+					mob.moveX += 5;
+				}
+				if (mob1.hp == 0)
+				{
+					mob1.moveX += 5;
+				}
+
+				if (mob2.hp == 0)
+				{
+					mob2.moveX += 5;
+				}
+				if (mob3.hp == 0)
+				{
+					mob3.moveX += 5;
+				}
+				if (mob4.hp == 0)
+				{
+					mob4.moveX += 5;
+				}
+
+				if (tager.hp == 0)
+				{
+					tager.moveX += 5;
+				}
+				if (tager1.hp == 0)
+				{
+					tager1.moveX += 5;
+				}
+				if (tager2.hp == 0)
+				{
+					tager2.moveX += 5;
+				}
+				if (tager3.hp == 0)
+				{
+					tager3.moveX += 5;
+				}
+				if (tager4.hp == 0)
+				{
+					tager4.moveX += 5;
+				}
+
+				if (boss.hp == 0)
+				{
+					boss.moveX += 5;
+				}
+				if (medusa.hp == 0)
+				{
+					medusa.moveX += 5;
+				}
+				if (arak.hp == 0)
+				{
+					arak.moveX += 5;
+				}
+
+				if (ragna.hp == 0)
+				{
+					ragna.moveX += 5;
+				}
+
+
+
 			}
 
 
