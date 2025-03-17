@@ -394,21 +394,25 @@ void showLevelThree_1(){
 
 	if (tager.modelIndex == 102 || tager.modelIndex == 109 )
 	{
-		tagY = 80;
+		tagY = 100;
 	}
-	else if (tager4.modelIndex == 102 || tager4.modelIndex == 109)
+	else
 	{
-		tag4Y = 80;
+		tagY = 0;
+	}
+	if (tager4.modelIndex == 102 || tager4.modelIndex == 109)
+	{
+		tag4Y = 100;
 	}
 
 	else
 	{
-		tagY = 0;
+		
 		tag4Y = 0;
 	}
 
-	iShowImage(tager.moveX, 320-tagY, 300, 300 - mob_adjust, tager.model[tager.modelIndex]);
-	iShowImage(tager4.moveX, 320-tag4Y, 300, 300 - mob_adjust, tager4.model[tager4.modelIndex]);
+	iShowImage(tager.moveX, 310-tagY, 300, 300 - mob_adjust, tager.model[tager.modelIndex]);
+	iShowImage(tager4.moveX, 310-tag4Y, 300, 300 - mob_adjust, tager4.model[tager4.modelIndex]);
 
 
 	//iShowImage(1480, 880, 400, 100, tager3.model[110]);
@@ -482,7 +486,7 @@ void showLevelThree_2(){
 			medusa_Y_adjust = 0;
 		}
 
-		iShowImage(medusa.moveX, 320 - medusa_Y_adjust, 280 + medusa_W_adjust, 280 - medusa_H_adjust, medusa.model[medusa.modelIndex]);
+		iShowImage(medusa.moveX, 320 - medusa_Y_adjust, 280 + medusa_W_adjust, 300 - medusa_H_adjust, medusa.model[medusa.modelIndex]);
 
 	}
 
@@ -500,20 +504,30 @@ void showLevelTwo_1(){
 	{
 		tag1Y = 80;
 	}
-	else if (tager2.modelIndex == 102 || tager2.modelIndex == 109)
-	{
-		tag2Y = 80;
-	}
-	else if (tager3.modelIndex == 102 || tager3.modelIndex == 109)
-	{
-		tag3Y = 80;
-	}
 	else
 	{
 		tag1Y = 0;
-		tag2Y = 0;
+	}
+	 if (tager2.modelIndex == 102 || tager2.modelIndex == 109)
+	{
+		tag2Y = 80;
+	}
+
+	else
+	 {
+		 tag2Y = 0;
+	 }
+
+	if (tager3.modelIndex == 102 || tager3.modelIndex == 109)
+	{
+		tag3Y = 80;
+	}
+
+	else
+	{
 		tag3Y = 0;
 	}
+
 	iShowImage(tager1.moveX, 320-tag1Y, 300, 300 - mob2_adjust, tager1.model[tager1.modelIndex]);
 
 	iShowImage(tager2.moveX, 320-tag2Y, 300, 300 - mob3_adjust, tager2.model[tager2.modelIndex]);
@@ -1235,7 +1249,7 @@ void iDraw() {
 	}
 
 
-	if (tester && page == LEVEL3)
+	if (page == LEVEL3 && level3Pic!=5)
 	{
 		testDrawHealthBars(hero);
 	}
