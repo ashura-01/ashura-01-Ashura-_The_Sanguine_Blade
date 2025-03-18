@@ -43,7 +43,7 @@ int loadingScreenIndex = 0;
 
 int highlight = 0;
 int levelButtonHighlight = 0;
-
+ 
 
 int insPage;
 int credPage;
