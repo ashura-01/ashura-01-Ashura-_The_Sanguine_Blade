@@ -438,7 +438,7 @@ void followTager(Character& character, TagerMobs& boss) {
 		character.modelState == THRUST || character.modelState == THRUST_B)) {
 
 		if (boss.hp > 0) {
-			boss.hp -= 100;
+			boss.hp -= 10;
 		}
 	}
 
@@ -758,7 +758,7 @@ void followRagna(Character& character, RagnaBoss& boss) {
 		!(character.modelState == SLASH || character.modelState == SLASH_B || character.modelState == DASH || character.modelState == DASH_B)) {
 
 		if (character.hp > 0) {
-			character.hp -= 5;
+			character.hp -= 1;
 		}
 	}
 
@@ -782,7 +782,7 @@ void followRagna(Character& character, RagnaBoss& boss) {
 		character.modelState == THRUST || character.modelState == THRUST_B)) {
 
 		if (boss.hp > 0) {
-			boss.hp -= 5;
+			boss.hp -= 1;
 		}
 		cout << "Boss HP: " << boss.hp << endl;
 	}
@@ -1532,7 +1532,7 @@ void follow(Character& character, Boss& boss) {
 		character.modelState == SWING || character.modelState == SWING_B || character.modelState == THRUST || character.modelState == THRUST_B)) {
 
 		if (boss.hp > 0) {
-			boss.hp -= 10;
+			boss.hp -= 1;
 		}
 
 		cout << "Boss HP: " << boss.hp << endl;
@@ -1651,7 +1651,7 @@ void mob_follow(Character& character, Mobs& mob) {
 		character.modelState == THRUST || character.modelState == THRUST_B)) {
 
 		if (mob.hp > 0) {
-			mob.hp -= 100;
+			mob.hp -= 10;
 		}
 	}
 
@@ -1969,7 +1969,7 @@ void followMedusa(Character& character, MedusaBoss& boss) {
 		character.modelState == THRUST || character.modelState == THRUST_B)) {
 
 		if (boss.hp > 0) {
-			boss.hp -= 10;
+			boss.hp -= 1;
 		}
 		cout << "Boss HP: " << boss.hp << endl;
 	}
@@ -2634,7 +2634,7 @@ void arakunefollow(Character& character, ArakuneBoss& boss) {
 		character.modelState == THRUST || character.modelState == THRUST_B)) {
 
 		if (boss.hp > 0) {
-			boss.hp -= 10;
+			boss.hp -= 1;
 		}
 		cout << "Boss HP: " << boss.hp << endl;
 	}
