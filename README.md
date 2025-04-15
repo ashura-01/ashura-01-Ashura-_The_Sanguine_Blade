@@ -70,7 +70,7 @@ Open the project in Visual Studio 2013
 ## Screenshots
 
 ### **Menu**
-<img src="https://github.com/ashura-01/ashura-01-Ashura-_The_Sanguine_Blade/tree/main/Ashura/resources/ui">
+<img src="Ashura/resources/ui/Screenshot 2025-04-15 141957.png">
 
 ### **Character**
 <img src="https://github.com/ashura-01/ashura-01-Ashura-_The_Sanguine_Blade/blob/main/Ashura/resources/mc/bstand/ha001_00.png" width="200" height="200">
